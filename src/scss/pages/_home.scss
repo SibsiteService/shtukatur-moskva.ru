@@ -1,16 +1,16 @@
 .page-home {
   background-image: url('../images/bg-first-screen-mobile.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 28%;
+  background-size: 100% 39%;
   background-position: right top;
   @include media-breakpoint-up(sm) {
     background-image: url('../images/bg-first-screen-mobile.jpg');
-    background-size: 100% 27%;
+    background-size: 100% 50%;
     background-position: right top;
   }
   @include media-breakpoint-up(md) {
     background-image: url('../images/bg-first-screen-big.jpg');
-    background-size: auto 50%;
+    background-size: auto 55%;
     background-position: left top;
   }
   @include media-breakpoint-up(lg) {
