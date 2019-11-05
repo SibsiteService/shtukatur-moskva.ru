@@ -5,13 +5,13 @@ const Call = props => (
   <div className="call">
     <div className="call-box-top">
       <div className="call-phone">
-        <strong>Phone: </strong>
+        <strong>Телефон: </strong>
         <a href={`tel:${props.data.site.siteMetadata.contact.phone}`}>
         {props.data.site.siteMetadata.contact.phone}
         </a>
       </div>
       <div className="call-email">
-        <strong>Email: </strong>
+        <strong>Электронная почта: </strong>
         <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
           {props.data.site.siteMetadata.contact.email}
         </a>
@@ -20,7 +20,7 @@ const Call = props => (
     {props.button && (
       <div className="call-box-bottom">
         <a href="/contact" className="button">
-          Contact
+          Связаться
         </a>
       </div>
     )}

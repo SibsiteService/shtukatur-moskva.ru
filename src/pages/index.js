@@ -10,20 +10,24 @@ const Home = (props) => {
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Home" />
+      <SEO title="Качественная и быстрая штукатурка стен и потолков по выгодной цене" />
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="Штукатурка стен и потолков по новой технологии в Москве и области. Качественный состав."
         />
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Serif - Gatsby Small Business Theme.</h1>
-          <p>
-            Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-            is a beautiful and artfully designed starting theme.
+          <h2>Механизированная</h2>
+          <h1><strong>Штукатурка стен и потолков</strong></h1>
+          <p> Гипсовой смесью в Москве и области c гарантией!
+              <br />
+              Штукатурка стен от 350 руб/м²
+              <br />
+              Штукатурка потолков от 450 руб/м²
           </p>
+          
         </div>
       </div>
 
@@ -48,11 +52,7 @@ const Home = (props) => {
               </div>
             </div>
           ))}
-          <div className="col-12 text-center">
-            <Link className="button button-primary mt-2" to="/services">
-              View All Services
-            </Link>
-          </div>
+          
         </div>
       </div>
 

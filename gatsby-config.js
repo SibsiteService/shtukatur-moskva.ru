@@ -2,28 +2,24 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'Штукатур Москва',
+    description: 'Механизированная штукатурка в Москве и области по низким ценам. Делаем качественно и быстро на сколько это возможно. Используем качественные материалы.',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '+7-915-457-22-01',
+      email: 'olroyd75@yandex.ru',
     },
     menuLinks: [
       {
-        name: 'Services',
+        name: 'Всё включено',
         link: '/services',
       },
       {
-        name: 'Team',
-        link: '/team',
-      },
-      {
-        name: 'Testimonials',
-        link: '/testimonials',
-      },
-      {
-        name: 'Contact',
+        name: 'Связаться с нами',
         link: '/contact',
+      },
+      {
+        name: '+7-915-457-22-01',
+        tel: '+79154572201',
       },
     ],
   },
