@@ -38,7 +38,7 @@ const Home = (props) => {
       <div className="container pt-8 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12">
-            <h2 className="title-3 text-dark mb-3">Our Services</h2>
+            <h2 className="title-3 text-dark mb-3">Что входит в пакет "Всё включено"</h2>
           </div>
           {markdown.map(edge => (
             <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
@@ -53,27 +53,6 @@ const Home = (props) => {
             </div>
           ))}
           
-        </div>
-      </div>
-
-      <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
-        <div className="row justify-content-center">
-          <div className="col-12">
-            <h2 className="title-3 text-dark mb-4">Our Features</h2>
-          </div>
-          {json.map(edge => (
-            <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-              <div className="feature">
-                {edge.node.image && (
-                  <div className="feature-image">
-                    <img src={withPrefix(edge.node.image)} />
-                  </div>
-                )}
-                <h2 className="feature-title">{edge.node.title}</h2>
-                <div className="feature-content">{edge.node.description}</div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </Layout>
