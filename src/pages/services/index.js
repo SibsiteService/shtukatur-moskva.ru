@@ -27,7 +27,7 @@ const Services = (props) => {
                   <h2>
                     <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
                   </h2>
-                  <p>{edge.node.excerpt}</p>
+                  <p><a href={edge.node.frontmatter.path}>{edge.node.excerpt}</a></p>
                 </div>
               </div>
             </div>
